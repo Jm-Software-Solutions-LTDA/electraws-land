@@ -1,4 +1,14 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Nossos Serviços | ElectraWS - Conserto de Eletrodomésticos',
+  description: 'Confira nossos serviços de conserto de geladeira, máquina de lavar, micro-ondas e outros eletrodomésticos na Grande Florianópolis.',
+  openGraph: {
+    title: 'Nossos Serviços | ElectraWS - Especialistas em Eletrodomésticos',
+    description: 'Manutenção rápida em Florianópolis, São José e região. Garantia e atendimento especializado.',
+  },
+};
 
 export default function ServicesPage() {
   const services = [
@@ -7,6 +17,7 @@ export default function ServicesPage() {
     { title: 'Lava e Seca', slug: 'conserto-lava-e-seca-grande-florianopolis', icon: '🌀' },
     { title: 'Micro-ondas', slug: 'conserto-micro-ondas-grande-florianopolis', icon: '⏲️' },
     { title: 'Freezer', slug: 'conserto-freezer-grande-florianopolis', icon: '🧊' },
+    { title: 'Fogão', slug: 'conserto-fogao-grande-florianopolis', icon: '🍳' },
     { title: 'Forno Elétrico', slug: 'conserto-forno-eletrico-grande-florianopolis', icon: '🔥' },
   ];
 

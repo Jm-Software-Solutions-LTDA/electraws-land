@@ -39,6 +39,42 @@ const serviceData: Record<string, ServiceData> = {
     faq: [
       { q: 'O micro-ondas liga mas não esquenta, tem conserto?', a: 'Sim, geralmente é um problema no magnetron ou no fusível de alta, componentes que podem ser substituídos.' }
     ]
+  },
+  'conserto-lava-e-seca-grande-florianopolis': {
+    title: 'Conserto de Lava e Seca em Florianópolis e Região',
+    description: 'Especialistas em máquinas lava e seca de todas as marcas (LG, Samsung, etc). Resolvemos erros de painel, secagem e mecânica.',
+    symptoms: ['Não seca a roupa', 'Erro no painel', 'Vazamento de água', 'Barulho excessivo'],
+    evaluations: ['Sensores de temperatura', 'Resistência de secagem', 'Placa eletrônica', 'Sistema de drenagem'],
+    faq: [
+      { q: 'Quanto tempo dura o conserto de uma lava e seca?', a: 'Depende da peça necessária, mas muitos reparos são feitos no mesmo dia.' }
+    ]
+  },
+  'conserto-freezer-grande-florianopolis': {
+    title: 'Conserto de Freezer em Florianópolis e Região',
+    description: 'Assistência técnica para freezers horizontais e verticais, residenciais ou comerciais.',
+    symptoms: ['Não gela', 'Acumulando gelo excessivo', 'Motor não desliga', 'Luz de alerta acesa'],
+    evaluations: ['Termostato', 'Gás refrigerante', 'Borracha de vedação', 'Relé de partida'],
+    faq: [
+      { q: 'Meu freezer parou de gelar de repente, o que fazer?', a: 'Verifique se a tomada está ok e chame um técnico para avaliar o compressor ou gás.' }
+    ]
+  },
+  'conserto-fogao-grande-florianopolis': {
+    title: 'Conserto de Fogão em Florianópolis e Região',
+    description: 'Manutenção de fogões a gás, cooktops e fornos. Limpeza de bicos e troca de peças.',
+    symptoms: ['Chama amarela', 'Cheiro de gás', 'Bocas entupidas', 'Acendedor não funciona'],
+    evaluations: ['Válvulas de segurança', 'Injetores de gás', 'Usinas de ignição', 'Tubulação interna'],
+    faq: [
+      { q: 'É perigoso consertar o fogão?', a: 'Sim, por envolver gás, o conserto deve ser feito sempre por um profissional qualificado.' }
+    ]
+  },
+  'conserto-forno-eletrico-grande-florianopolis': {
+    title: 'Conserto de Forno Elétrico em Florianópolis e Região',
+    description: 'Assistência técnica para fornos elétricos de embutir ou bancada. Troca de resistência e termostato.',
+    symptoms: ['Não liga', 'Não esquenta por igual', 'Porta não fecha direito', 'Timer estragado'],
+    evaluations: ['Resistência superior/inferior', 'Termostato de temperatura', 'Fiação interna', 'Chaves seletoras'],
+    faq: [
+      { q: 'Vale a pena consertar forno elétrico?', a: 'Na maioria das vezes sim, pois o custo do reparo é bem menor que um forno novo de boa qualidade.' }
+    ]
   }
 };
 
