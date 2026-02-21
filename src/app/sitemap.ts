@@ -7,6 +7,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'conserto-geladeira-grande-florianopolis',
     'conserto-maquina-de-lavar-grande-florianopolis',
     'conserto-micro-ondas-grande-florianopolis',
+    'conserto-lava-e-seca-grande-florianopolis',
+    'conserto-freezer-grande-florianopolis',
+    'conserto-fogao-grande-florianopolis',
+    'conserto-forno-eletrico-grande-florianopolis',
   ];
   
   const regions = [
@@ -16,15 +20,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'biguacu',
   ];
 
-  const serviceUrls = services.map((slug) => ({
+  const serviceUrls: MetadataRoute.Sitemap = services.map((slug) => ({
     url: `${baseUrl}/servicos/${slug}`,
     lastModified: new Date(),
+    changeFrequency: 'weekly',
     priority: 0.8,
   }));
 
-  const regionUrls = regions.map((city) => ({
+  const regionUrls: MetadataRoute.Sitemap = regions.map((city) => ({
     url: `${baseUrl}/regiao/${city}`,
     lastModified: new Date(),
+    changeFrequency: 'monthly',
     priority: 0.7,
   }));
 
@@ -32,21 +38,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: baseUrl,
       lastModified: new Date(),
+      changeFrequency: 'monthly',
       priority: 1,
     },
     {
       url: `${baseUrl}/servicos`,
       lastModified: new Date(),
+      changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
       url: `${baseUrl}/regiao`,
       lastModified: new Date(),
+      changeFrequency: 'monthly',
       priority: 0.6,
     },
     {
       url: `${baseUrl}/contato`,
       lastModified: new Date(),
+      changeFrequency: 'yearly',
       priority: 0.5,
     },
     ...serviceUrls,

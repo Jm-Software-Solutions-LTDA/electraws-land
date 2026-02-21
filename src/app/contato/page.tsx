@@ -1,4 +1,14 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Contato | ElectraWS - Conserto de Eletrodomésticos',
+  description: 'Fale conosco para solicitar um orçamento de conserto de geladeira, máquina de lavar e mais na Grande Florianópolis. Atendimento via WhatsApp.',
+  openGraph: {
+    title: 'Contato | ElectraWS - Conserto de Eletrodomésticos',
+    description: 'Solicite seu orçamento gratuito agora mesmo. Atendemos Florianópolis, São José, Palhoça e Biguaçu.',
+  },
+};
 
 export default function ContactPage() {
   return (
