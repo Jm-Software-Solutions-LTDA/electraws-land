@@ -58,13 +58,14 @@ const serviceData: Record<string, ServiceData> = {
       { q: 'Meu freezer parou de gelar de repente, o que fazer?', a: 'Verifique se a tomada está ok e chame um técnico para avaliar o compressor ou gás.' }
     ]
   },
-  'conserto-fogao-grande-florianopolis': {
-    title: 'Conserto de Fogão em Florianópolis e Região',
-    description: 'Manutenção de fogões a gás, cooktops e fornos. Limpeza de bicos e troca de peças.',
-    symptoms: ['Chama amarela', 'Cheiro de gás', 'Bocas entupidas', 'Acendedor não funciona'],
-    evaluations: ['Válvulas de segurança', 'Injetores de gás', 'Usinas de ignição', 'Tubulação interna'],
+  'conserto-lava-louca-grande-florianopolis': {
+    title: 'Conserto de Lava Louça em Florianópolis e Região',
+    description: 'Assistência técnica completa para lava-louças de todas as marcas. Resolvemos problemas de vazamento, drenagem e ciclos de lavagem.',
+    symptoms: ['Não puxa água', 'Não solta a água', 'Louça sai suja', 'Vazamento por baixo', 'Painel com erro'],
+    evaluations: ['Bomba de drenagem', 'Eletroválvula de entrada', 'Braços aspersores', 'Placa eletrônica', 'Sensores de nível'],
     faq: [
-      { q: 'É perigoso consertar o fogão?', a: 'Sim, por envolver gás, o conserto deve ser feito sempre por um profissional qualificado.' }
+      { q: 'Minha lava-louça não está secando bem, o que pode ser?', a: 'Pode ser falta de líquido secante, problema na resistência ou no sensor de temperatura.' },
+      { q: 'Quanto tempo demora o conserto?', a: 'A maioria dos reparos em lava-louças é concluída na primeira visita, dependendo da disponibilidade da peça.' }
     ]
   },
   'conserto-forno-eletrico-grande-florianopolis': {

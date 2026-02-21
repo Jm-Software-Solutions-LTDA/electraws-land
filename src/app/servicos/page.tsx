@@ -17,7 +17,7 @@ export default function ServicesPage() {
     { title: 'Lava e Seca', slug: 'conserto-lava-e-seca-grande-florianopolis', icon: '🌀' },
     { title: 'Micro-ondas', slug: 'conserto-micro-ondas-grande-florianopolis', icon: '⏲️' },
     { title: 'Freezer', slug: 'conserto-freezer-grande-florianopolis', icon: '🧊' },
-    { title: 'Fogão', slug: 'conserto-fogao-grande-florianopolis', icon: '🍳' },
+    { title: 'Lava-louça', slug: 'conserto-lava-louca-grande-florianopolis', icon: '🍽️' },
     { title: 'Forno Elétrico', slug: 'conserto-forno-eletrico-grande-florianopolis', icon: '🔥' },
   ];
 
