@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'conserto-micro-ondas-grande-florianopolis',
     'conserto-lava-e-seca-grande-florianopolis',
     'conserto-freezer-grande-florianopolis',
-    'conserto-fogao-grande-florianopolis',
+    'conserto-lava-louca-grande-florianopolis',
     'conserto-forno-eletrico-grande-florianopolis',
   ];
   

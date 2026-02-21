@@ -91,7 +91,7 @@ export default function Home() {
               { name: 'Lava e Seca', slug: 'conserto-lava-e-seca-grande-florianopolis' },
               { name: 'Freezer', slug: 'conserto-freezer-grande-florianopolis' },
               { name: 'Micro-ondas', slug: 'conserto-micro-ondas-grande-florianopolis' },
-              { name: 'Fogão', slug: 'conserto-fogao-grande-florianopolis' },
+              { name: 'Lava Louça', slug: 'conserto-lava-louca-grande-florianopolis' },
               { name: 'Forno Elétrico', slug: 'conserto-forno-eletrico-grande-florianopolis'}
             ].map((e, i) => (
               <Link 
