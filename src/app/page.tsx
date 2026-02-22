@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -33,7 +34,16 @@ export default function Home() {
             </p>
           </div>
           <div className="hidden md:block bg-blue-100 rounded-3xl h-[400px] relative overflow-hidden flex items-center justify-center">
-             <span className="text-primary font-bold text-2xl">ElectraWS - Especialistas</span>
+             <Image 
+               src="/img.png" 
+               alt="ElectraWS - Especialistas" 
+               fill 
+               className="object-cover"
+               priority
+             />
+             <div className="absolute inset-0 bg-black/10 flex items-center justify-center">
+                <span className="text-white font-bold text-2xl drop-shadow-lg">ElectraWS - Especialistas</span>
+             </div>
           </div>
         </div>
       </section>
